@@ -1,0 +1,41 @@
+.folder,
+.input {
+  min-width: 50px;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  user-select: none;
+  border-left: 1px solid #f3f3f3;
+}
+
+.folderTitle {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+.folderName {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+.folderIcon {
+  color: rgb(244, 208, 63);
+}
+
+.folderContents {
+  border-left: 1px solid white;
+}
+
+.addButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.addButton {
+  border: 1px solid black;
+  padding: 2px;
+}

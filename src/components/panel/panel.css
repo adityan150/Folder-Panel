@@ -1,0 +1,5 @@
+.panel {
+  min-width: 300px;
+  max-width: fit-content;
+  margin: 1rem;
+}
